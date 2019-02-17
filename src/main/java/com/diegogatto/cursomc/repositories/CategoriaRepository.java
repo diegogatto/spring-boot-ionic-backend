@@ -1,0 +1,11 @@
+package com.diegogatto.cursomc.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.diegogatto.cursomc.domain.Categoria;
+
+@Repository
+public interface CategoriaRepository extends JpaRepository<Categoria, Integer> {
+
+}
